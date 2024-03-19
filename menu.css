@@ -1,0 +1,64 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #f00; /* Red background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Menu List Styles */
+  .menu-list {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .menu-list h2 {
+    margin-bottom: 30px;
+  }
+  
+  #menuItems {
+    list-style-type:disc;
+  }
+  
+  #menuItems li {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  #menuItems li:hover {
+    transform: scale(1.05);
+  }
+  
